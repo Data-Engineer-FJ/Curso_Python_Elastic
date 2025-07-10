@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Core
+elasticsearch==8.13.0
+pandas>=1.5.0
+jupyterlab>=3.0.0
+numpy>=1.23.0
+
+# Visualización y análisis
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Lectura y manipulación de datos
+openpyxl>=3.0.10
+xlrd>=2.0.1
+
+# API REST y conexiones (opcional para proyecto final)
+requests>=2.31.0
+fastapi>=0.103.0
+uvicorn>=0.22.0
+
+# Dev y exportación
+notebook>=7.0.0
+ipykernel>=6.25.0
