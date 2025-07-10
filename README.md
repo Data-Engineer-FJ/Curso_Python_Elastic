@@ -10,14 +10,43 @@ Curso completo y práctico de **Python + Elasticsearch**, diseñado para profesi
 
 ```
 Manual_Python_Elastic/
-├── README.md
-├── requirements.txt
-├── Manual_Python_Elastic.pdf
-├── notebooks/                # Notebooks organizados por módulo
-├── devtools/                 # Comandos JSON para DevTools de Kibana
-├── beats_configs/            # Configuraciones para Filebeat y Metricbeat
-├── proyecto_final/           # Proyecto final ETL con datos reales
-└── extras/                   # Scripts adicionales y plantillas JSON
+│
+├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
+├── README.md                           ← Portada del curso en GitHub
+├── requirements.txt                    ← Librerías necesarias (JupyterLab, Elasticsearch, pandas, etc.)
+│
+├── notebooks/                          ← Notebooks por capítulo
+│   ├── 01_intro.ipynb                  ← ¿Qué es Elastic? ¿Qué es Kibana? Primeros pasos
+│   ├── 02_indexing.ipynb               ← Crear índices, mappings, insertar docs
+│   ├── 03_search.ipynb                 ← Queries básicas y avanzadas
+│   ├── 04_bulk.ipynb                   ← Carga masiva con _bulk
+│   ├── 05_pandas.ipynb                 ← Visualizar y explorar resultados con Pandas
+│   └── ...                             ← Más notebooks según avance
+│
+├── devtools/                           ← Comandos para Kibana Dev Tools
+│   ├── create_index.json
+│   ├── insert_docs.json
+│   ├── search_queries.json
+│   ├── aggs.json
+│   └── ...
+│
+├── beats_configs/                      ← Configuración de Metricbeat y Filebeat
+│   ├── metricbeat.yml
+│   ├── filebeat.yml
+│   └── dashboards/                     ← Dashboards de ejemplo en JSON
+│
+├── proyecto_final/                     ← Proyecto práctico completo (Ej: Ventas)
+│   ├── dataset_ventas.csv              ← Datos reales simulados
+│   ├── script_index_ventas.py         ← Indexar dataset en Elasticsearch
+│   ├── queries_proyecto.json          ← Consultas usadas
+│   ├── reporte.ipynb                  ← Análisis con pandas + gráficos
+│   └── export_report.py               ← Exportación automática de reportes
+│
+└── extras/                             ← Utilidades adicionales
+    ├── templates_roles.json            ← Roles y permisos
+    ├── watcher_examples.json           ← Watchers de monitoreo
+    └── cleanup_scripts.py              ← Scripts para limpiar el entorno
+
 ```
 
 ---
