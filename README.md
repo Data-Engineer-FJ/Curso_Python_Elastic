@@ -9,7 +9,7 @@ Curso completo y práctico de **Python + Elasticsearch**, diseñado para profesi
 📂 Estructura del repositorio:
 
 ```
-Manual_Python_Elastic/
+Curso_Python_Elastic/
 │
 ├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
 ├── README.md                           ← Portada del curso en GitHub
@@ -37,10 +37,10 @@ Manual_Python_Elastic/
 │
 ├── proyecto_final/                     ← Proyecto práctico completo (Ej: Ventas)
 │   ├── dataset_ventas.csv              ← Datos reales simulados
-│   ├── script_index_ventas.py         ← Indexar dataset en Elasticsearch
-│   ├── queries_proyecto.json          ← Consultas usadas
-│   ├── reporte.ipynb                  ← Análisis con pandas + gráficos
-│   └── export_report.py               ← Exportación automática de reportes
+│   ├── script_index_ventas.py          ← Indexar dataset en Elasticsearch
+│   ├── queries_proyecto.json           ← Consultas usadas
+│   ├── reporte.ipynb                   ← Análisis con pandas + gráficos
+│   └── export_report.py                ← Exportación automática de reportes
 │
 └── extras/                             ← Utilidades adicionales
     ├── templates_roles.json            ← Roles y permisos
