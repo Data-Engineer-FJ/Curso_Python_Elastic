@@ -1,2 +1,12 @@
-# Curso_Python_Elastic
-Curso completo de Python para Elasticsearch, con notebooks interactivos, scripts de automatización, prácticas con Kibana y un proyecto final ETL. Ideal para Data Engineers, Analistas y Desarrolladores backend.
+# 📘 Manual_Python_Elastic
+
+Curso completo y práctico de **Python + Elasticsearch**, diseñado para profesionales de datos, ingenieros de software y estudiantes avanzados. Incluye notebooks interactivos, scripts para Dev Tools de Kibana, configuraciones con Beats y un proyecto final ETL con visualización y análisis.
+
+---
+
+## 📌 Contenido
+
+📂 Estructura del repositorio:
+
+
+
