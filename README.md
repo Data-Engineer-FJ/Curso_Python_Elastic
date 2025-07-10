@@ -1,15 +1,15 @@
-# 📘 Curso_Python_Elastic
+# 📘 Curso\_Python\_Elastic
 
-Curso completo y práctico de **Python + Elasticsearch**, diseñado para profesionales de datos, ingenieros de software y estudiantes avanzados. Incluye notebooks interactivos, scripts para Dev Tools de Kibana, configuraciones con Beats y un proyecto final ETL con visualización y análisis.
+Curso completo y práctico de Python + Elasticsearch, diseñado para profesionales de datos, ingenieros de software y estudiantes avanzados. Incluye notebooks interactivos, scripts para Dev Tools de Kibana, configuraciones con Beats y un proyecto final ETL con visualización y análisis.
 
 ---
 
 ## 📌 Contenido
 
-📂 Estructura del repositorio:
+### 📂 Estructura del repositorio
 
-```
-Curso_Python_Elastic/
+```plaintext
+Manual_Python_Elastic/
 │
 ├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
 ├── README.md                           ← Portada del curso en GitHub
@@ -21,7 +21,21 @@ Curso_Python_Elastic/
 │   ├── 03_search.ipynb                 ← Queries básicas y avanzadas
 │   ├── 04_bulk.ipynb                   ← Carga masiva con _bulk
 │   ├── 05_pandas.ipynb                 ← Visualizar y explorar resultados con Pandas
-│   └── ...                             ← Más notebooks según avance
+│   ├── 06_aggs_basicas.ipynb           ← Agregaciones simples
+│   ├── 07_aggs_anidadas.ipynb          ← Subagregaciones y visualización
+│   ├── 08_security.ipynb               ← Seguridad con usuarios y roles
+│   ├── 09_beats_intro.ipynb            ← Instalar y configurar Metricbeat y Filebeat
+│   ├── 10_python_client.ipynb          ← Conectar con Python y validar
+│   ├── 11_index_python.ipynb           ← Indexar documentos con Python
+│   ├── 12_query_python.ipynb           ← Buscar desde Python
+│   ├── 13_pandas.ipynb                 ← Convertir resultados en DataFrames
+│   ├── 14_crud_python.ipynb            ← CRUD completo desde Python
+│   ├── 15_automatizacion.ipynb         ← Automatizar tareas
+│   ├── 16_kibana_visual.ipynb          ← Dashboards en Kibana
+│   ├── 17_alertas.ipynb                ← Watchers y alertas básicas
+│   ├── 18_proyecto_final.ipynb         ← Caso práctico de ventas
+│   ├── 19_exportar_reporte.ipynb       ← Generar informes PDF
+│   └── 20_buenas_practicas.ipynb       ← Recomendaciones y próximos pasos
 │
 ├── devtools/                           ← Comandos para Kibana Dev Tools
 │   ├── create_index.json
@@ -46,31 +60,29 @@ Curso_Python_Elastic/
     ├── templates_roles.json            ← Roles y permisos
     ├── watcher_examples.json           ← Watchers de monitoreo
     └── cleanup_scripts.py              ← Scripts para limpiar el entorno
-
 ```
 
 ---
 
 ## 🎯 Objetivos del curso
 
-- Instalar y configurar Elasticsearch de forma local.
-- Conectar Python con Elasticsearch usando `elasticsearch-py`.
-- Crear, consultar, actualizar y eliminar documentos.
-- Realizar búsquedas simples y avanzadas.
-- Aplicar agregaciones y scripts dinámicos.
-- Visualizar datos con `pandas` y construir dashboards en Kibana.
-- Integrar todo en un proyecto final realista.
+- Dominar Elasticsearch desde cero con Python
+- Comprender la arquitectura de Elastic Stack (ES + Kibana + Beats)
+- Crear, consultar, agregar y administrar datos
+- Visualizar resultados en Kibana
+- Automatizar indexaciones y alertas
+- Ejecutar un proyecto completo tipo ETL + Análisis + Dashboard
 
 ---
 
 ## ⚙️ Requisitos
 
-- Python 3.8+
-- Docker (opcional para correr Elasticsearch)
+- Python 3.8 o superior
 - JupyterLab
-- Elasticsearch 8.x
+- Elasticsearch 8.x local o en Docker
+- Conexión a Internet para descargar dependencias
 
-Instala las dependencias con:
+Instalación rápida:
 
 ```bash
 pip install -r requirements.txt
@@ -80,33 +92,37 @@ pip install -r requirements.txt
 
 ## 🚀 Ejecución rápida
 
+Sigue estos pasos para ejecutar el curso en tu máquina local:
+
+### 1. Clona el repositorio
+
 ```bash
-# 1. Clona el repositorio
-git clone https://github.com/Data-Engineer-FJ/Manual_Python_Elastic.git
+git clone https://github.com/tu_usuario/Manual_Python_Elastic.git
+```
 
-# 2. Entra al proyecto
+### 2. Entra al proyecto
+
+```bash
 cd Manual_Python_Elastic
+```
 
-# 3. Instala dependencias
+### 3. Instala dependencias
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Lanza JupyterLab
+### 4. Lanza JupyterLab
+
+```bash
 jupyter lab
 ```
+
+Asegúrate de tener Elasticsearch corriendo en `http://localhost:9200` y Kibana en `http://localhost:5601`.
 
 ---
 
 ## 📚 Recursos incluidos
-
-- 🧠 10+ notebooks con teoría + práctica
-- 📄 Scripts listos para DevTools de Kibana
-- 📊 Dashboards con Filebeat y Metricbeat
-- 📁 Proyecto final: ETL + visualización
-- 📘 PDF del curso completo para impresión
-
----
-
-## 👨‍🏫 Público objetivo
 
 - Data Engineers
 - Analistas de datos
@@ -114,19 +130,18 @@ jupyter lab
 - Arquitectos de soluciones
 - Estudiantes avanzados
 
+Este curso sirve tanto para formación autodidacta como para entrenamiento corporativo.
+
 ---
 
 ## 📝 Licencia
 
-Este proyecto está bajo licencia MIT.  
-Puedes usarlo, modificarlo y compartirlo libremente. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente. Consulta el archivo LICENSE para más detalles.
 
 ---
 
 ## ✉️ Autor
 
-**Data Engineer FJ [Fredy Johel Peña Alvarez]**  
+**Data Engineer FJ** — *Fredy Johel Peña Alvarez*\
 Proyecto educativo y profesional para aprendizaje de Elasticsearch.
-
-
 
