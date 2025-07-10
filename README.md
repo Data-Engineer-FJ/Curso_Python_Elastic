@@ -96,7 +96,7 @@ Puedes usarlo, modificarlo y compartirlo libremente. Consulta el archivo `LICENS
 
 ## ✉️ Autor
 
-**Data Engineer FJ**  
+**Data Engineer FJ [Fredy Johel Peña Alvarez]**  
 Proyecto educativo y profesional para aprendizaje de Elasticsearch.
 
 
