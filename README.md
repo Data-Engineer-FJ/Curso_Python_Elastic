@@ -9,7 +9,7 @@ Curso completo y práctico de Python + Elasticsearch, diseñado para profesional
 ### 📂 Estructura del repositorio
 
 ```plaintext
-Manual_Python_Elastic/
+Curso_Python_Elastic//
 │
 ├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
 ├── README.md                           ← Portada del curso en GitHub
@@ -97,13 +97,13 @@ Sigue estos pasos para ejecutar el curso en tu máquina local:
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/Manual_Python_Elastic.git
+git clone https://github.com/tu_usuario/Curso_Python_Elastic/.git
 ```
 
 ### 2. Entra al proyecto
 
 ```bash
-cd Manual_Python_Elastic
+cd Curso_Python_Elastic/
 ```
 
 ### 3. Instala dependencias
