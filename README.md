@@ -21,7 +21,11 @@ Bienvenido al repositorio oficial del **Curso_Python_Elastic**, una guía comple
 ├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
 ├── README.md                           ← Portada del curso en GitHub
 ├── requirements.txt                    ← Librerías necesarias (JupyterLab, Elasticsearch, pandas, etc.)
-│
+├── setup/                              ← Instalación paso a paso sin Docker
+│   ├── 01_install_python_env.md
+│   ├── 02_install_elasticsearch.md
+│   ├── 03_install_beats.md
+│   ├── 04_test_connection.py
 ├── notebooks/                          ← Notebooks por capítulo
 │   ├── 01_intro.ipynb                  ← ¿Qué es Elastic? ¿Qué es Kibana? Primeros pasos
 │   ├── 02_indexing.ipynb               ← Crear índices, mappings, insertar docs
