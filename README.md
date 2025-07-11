@@ -18,39 +18,55 @@ Bienvenido al repositorio oficial del **Curso_Python_Elastic**, una guía comple
 ## 📦 Estructura del Proyecto
 
 ```
-Curso_Python_Elastic/
+├── 📘 Curso_Python_Elastic.pdf         ← Libro completo en PDF
+├── README.md                           ← Portada del curso en GitHub
+├── requirements.txt                    ← Librerías necesarias (JupyterLab, Elasticsearch, pandas, etc.)
 │
-├── Curso_Python_Elastic.pdf           ← Libro completo del curso (generado automáticamente)
-├── requirements.txt                   ← Librerías necesarias (JupyterLab, ES client, pandas, etc.)
+├── notebooks/                          ← Notebooks por capítulo
+│   ├── 01_intro.ipynb                  ← ¿Qué es Elastic? ¿Qué es Kibana? Primeros pasos
+│   ├── 02_indexing.ipynb               ← Crear índices, mappings, insertar docs
+│   ├── 03_search.ipynb                 ← Queries básicas y avanzadas
+│   ├── 04_bulk.ipynb                   ← Carga masiva con _bulk
+│   ├── 05_pandas.ipynb                 ← Visualizar y explorar resultados con Pandas
+│   ├── 06_aggs_basicas.ipynb           ← Agregaciones simples
+│   ├── 07_aggs_anidadas.ipynb          ← Subagregaciones y visualización
+│   ├── 08_security.ipynb               ← Seguridad con usuarios y roles
+│   ├── 09_beats_intro.ipynb            ← Instalar y configurar Metricbeat y Filebeat
+│   ├── 10_python_client.ipynb          ← Conectar con Python y validar
+│   ├── 11_index_python.ipynb           ← Indexar documentos con Python
+│   ├── 12_query_python.ipynb           ← Buscar desde Python
+│   ├── 13_pandas.ipynb                 ← Convertir resultados en DataFrames
+│   ├── 14_crud_python.ipynb            ← CRUD completo desde Python
+│   ├── 15_automatizacion.ipynb         ← Automatizar tareas
+│   ├── 16_kibana_visual.ipynb          ← Dashboards en Kibana
+│   ├── 17_alertas.ipynb                ← Watchers y alertas básicas
+│   ├── 18_proyecto_final.ipynb         ← Caso práctico de ventas
+│   ├── 19_exportar_reporte.ipynb       ← Generar informes PDF
+│   └── 20_buenas_practicas.ipynb       ← Recomendaciones y próximos pasos
 │
-├── setup/                             ← Instalación paso a paso sin Docker
-│   ├── 01_install_python_env.md
-│   ├── 02_install_elasticsearch.md
-│   ├── 03_install_beats.md
-│   ├── 04_test_connection.py
-│
-├── notebooks/                         ← Notebooks por capítulo explicados paso a paso
-│   ├── 01_intro.ipynb                 ← ¿Qué es Elastic? Primeros pasos
-│   ├── 02_indexing.ipynb              ← Crear índices, mappings, insertar documentos
-│   ├── 03_search.ipynb                ← Queries básicas y avanzadas
-│   ├── ...                            ← Hasta CRUD, visualizaciones, alertas y más
-│
-├── devtools/                          ← Comandos para Kibana Dev Tools
+├── devtools/                           ← Comandos para Kibana Dev Tools
 │   ├── create_index.json
 │   ├── insert_docs.json
 │   ├── search_queries.json
 │   ├── aggs.json
+│   └── ...
 │
-├── proyecto_final/                    ← Proyecto práctico completo
-│   ├── dataset_ventas.csv             ← Dataset simulado
-│   ├── script_index_ventas.py         ← Indexación automática
-│   ├── reporte.ipynb                  ← Análisis y visualización
-│   ├── export_report.py               ← Exportación de reportes PDF
+├── beats_configs/                      ← Configuración de Metricbeat y Filebeat
+│   ├── metricbeat.yml
+│   ├── filebeat.yml
+│   └── dashboards/                     ← Dashboards de ejemplo en JSON
 │
-├── extras/                            ← Utilidades adicionales
-│   ├── templates_roles.json
-│   ├── watcher_examples.json
-│   ├── cleanup_scripts.py
+├── proyecto_final/                     ← Proyecto práctico completo (Ej: Ventas)
+│   ├── dataset_ventas.csv              ← Datos reales simulados
+│   ├── script_index_ventas.py          ← Indexar dataset en Elasticsearch
+│   ├── queries_proyecto.json           ← Consultas usadas
+│   ├── reporte.ipynb                   ← Análisis con pandas + gráficos
+│   └── export_report.py                ← Exportación automática de reportes
+│
+└── extras/                             ← Utilidades adicionales
+    ├── templates_roles.json            ← Roles y permisos
+    ├── watcher_examples.json           ← Watchers de monitoreo
+    └── cleanup_scripts.py              ← Scripts para limpiar el entorno
 ```
 
 ---
